@@ -1,0 +1,20 @@
+//Braian Adair Maldonado Luna.
+//Clase 6/11/17
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+char x;
+cout<<"Escoge una opción entre A,B,C,D"<<endl;
+cin>>x;
+switch (x){
+    case 'A': cout<<"Excelente"<<endl;break;
+    case 'B': cout<<"Muy bien"<<endl;break;
+    case 'C': cout<<"Bien"<<endl;break;
+    case 'D': cout<<"Pasaste"<<endl;break;
+    case 'F': cout<<"Inténtalo nuevamente"<<endl;break;
+    default: cout<<"Opción no válida"<<endl;
+}
+return 0;
+}
